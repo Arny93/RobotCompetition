@@ -1,0 +1,1067 @@
+# depslib dependency file v1.0
+1481753089 source:/home/valerio/Desktop/2017.01.10_robot/actions.c
+	"fmotor.h"
+	"fsensor.h"
+	"ev3_tacho.h"
+	<stdio.h>
+	<unistd.h>
+
+1484062146 /home/valerio/Desktop/2017.01.10_robot/fmotor.h
+	<stdint.h>
+	<stdbool.h>
+	"ev3.h"
+
+1481753086 /home/valerio/Desktop/2017.01.10_robot/ev3.h
+	<stddef.h>
+	<stdint.h>
+	<stdbool.h>
+	"ev3_both.h"
+
+1481753103 /home/valerio/Desktop/2017.01.10_robot/ev3_both.h
+
+1481753087 /home/valerio/Desktop/2017.01.10_robot/fsensor.h
+	<stdint.h>
+
+1481753085 /home/valerio/Desktop/2017.01.10_robot/ev3_tacho.h
+	<stddef.h>
+	<stdint.h>
+	<stdbool.h>
+
+1481753123 source:/home/valerio/Desktop/2017.01.10_robot/brick.c
+	<string.h>
+	"brick.h"
+	<windows.h>
+	<unistd.h>
+
+1481753090 /home/valerio/Desktop/2017.01.10_robot/brick.h
+	<stdint.h>
+	<stdbool.h>
+	"ev3.h"
+	"ev3_port.h"
+	"ev3_sensor.h"
+	"ev3_tacho.h"
+	"ev3_dc.h"
+
+1481753131 /home/valerio/Desktop/2017.01.10_robot/ev3_port.h
+	<stddef.h>
+	<stdint.h>
+	<stdbool.h>
+
+1481753127 /home/valerio/Desktop/2017.01.10_robot/ev3_sensor.h
+	<stddef.h>
+	<stdint.h>
+	<stdbool.h>
+
+1481753112 /home/valerio/Desktop/2017.01.10_robot/ev3_dc.h
+	<stddef.h>
+	<stdint.h>
+	<stdbool.h>
+
+1481753078 source:/home/valerio/Desktop/2017.01.10_robot/crc32.c
+	"crc32.h"
+
+1481753120 /home/valerio/Desktop/2017.01.10_robot/crc32.h
+	<stdint.h>
+
+1481753097 source:/home/valerio/Desktop/2017.01.10_robot/ev3.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"modp_numtoa.h"
+	"ev3.h"
+	<sys/types.h>
+	<dirent.h>
+	<unistd.h>
+	<fcntl.h>
+	<linux/input.h>
+	"ev3_link.h"
+	<windows.h>
+	<unistd.h>
+
+1481753118 /home/valerio/Desktop/2017.01.10_robot/modp_numtoa.h
+	<stdint.h>
+
+1481753084 /home/valerio/Desktop/2017.01.10_robot/ev3_link.h
+	<stdint.h>
+
+1481753113 source:/home/valerio/Desktop/2017.01.10_robot/ev3_dc.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"modp_numtoa.h"
+	"ev3.h"
+	"ev3_port.h"
+	"ev3_dc.h"
+
+1481753130 source:/home/valerio/Desktop/2017.01.10_robot/ev3_led.c
+	<string.h>
+	<stdio.h>
+	"ev3.h"
+	"ev3_led.h"
+
+1481753079 /home/valerio/Desktop/2017.01.10_robot/ev3_led.h
+	<stddef.h>
+	<stdint.h>
+	<stdbool.h>
+
+1481753114 source:/home/valerio/Desktop/2017.01.10_robot/ev3_light.c
+	<stdio.h>
+	"ev3.h"
+	"ev3_led.h"
+	"ev3_light.h"
+
+1481753096 /home/valerio/Desktop/2017.01.10_robot/ev3_light.h
+	<stddef.h>
+	<stdint.h>
+	<stdbool.h>
+
+1481753109 source:/home/valerio/Desktop/2017.01.10_robot/ev3_link.c
+	<stdlib.h>
+	<signal.h>
+	<stdio.h>
+	<unistd.h>
+	<fcntl.h>
+	<errno.h>
+	<limits.h>
+	<dirent.h>
+	<winsock.h>
+	<wininet.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<sys/un.h>
+	<arpa/inet.h>
+	"ev3_link.h"
+	"ev3_both.h"
+	<linux/input.h>
+	<sys/stat.h>
+	<syslog.h>
+	"modp_numtoa.h"
+
+1481753134 source:/home/valerio/Desktop/2017.01.10_robot/ev3_port.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"modp_numtoa.h"
+	"ev3.h"
+	"ev3_port.h"
+
+1481753095 source:/home/valerio/Desktop/2017.01.10_robot/ev3_sensor.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"modp_numtoa.h"
+	"crc32.h"
+	"ev3.h"
+	"ev3_port.h"
+	"ev3_sensor.h"
+
+1481753091 source:/home/valerio/Desktop/2017.01.10_robot/ev3_servo.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"modp_numtoa.h"
+	"ev3.h"
+	"ev3_port.h"
+	"ev3_servo.h"
+
+1481753132 /home/valerio/Desktop/2017.01.10_robot/ev3_servo.h
+	<stddef.h>
+	<stdint.h>
+	<stdbool.h>
+
+1481753126 source:/home/valerio/Desktop/2017.01.10_robot/ev3_tacho.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"modp_numtoa.h"
+	"ev3.h"
+	"ev3_port.h"
+	"ev3_tacho.h"
+
+1484062146 source:/home/valerio/Desktop/2017.01.10_robot/fmotor.c
+	"fmotor.h"
+	"ev3_tacho.h"
+	"fsensor.h"
+	<stdio.h>
+	<unistd.h>
+
+1484057865 source:/home/valerio/Desktop/2017.01.10_robot/fsensor.c
+	"fsensor.h"
+	<stdio.h>
+	"ev3.h"
+	"ev3_sensor.h"
+
+1484062221 source:/home/valerio/Desktop/2017.01.10_robot/main.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	"ev3.h"
+	"ev3_port.h"
+	"ev3_tacho.h"
+	"ev3_sensor.h"
+	"fmotor.h"
+	"fsensor.h"
+	"actions.h"
+
+1481753093 /home/valerio/Desktop/2017.01.10_robot/actions.h
+
+1481753137 source:/home/valerio/Desktop/2017.01.10_robot/modp_numtoa.c
+	"modp_numtoa.h"
+	<stdint.h>
+	<stdio.h>
+	<math.h>
+
+1484191902 source:/home/fc/Scrivania/2017.01.10_robot/actions.c
+	"fmotor.h"
+	"fsensor.h"
+	"ev3_tacho.h"
+	<stdio.h>
+	<unistd.h>
+
+1484062146 /home/fc/Scrivania/2017.01.10_robot/fmotor.h
+	<stdint.h>
+	<stdbool.h>
+	"ev3.h"
+
+1481753086 /home/fc/Scrivania/2017.01.10_robot/ev3.h
+	<stddef.h>
+	<stdint.h>
+	<stdbool.h>
+	"ev3_both.h"
+
+1481753103 /home/fc/Scrivania/2017.01.10_robot/ev3_both.h
+
+1481753087 /home/fc/Scrivania/2017.01.10_robot/fsensor.h
+	<stdint.h>
+
+1481753085 /home/fc/Scrivania/2017.01.10_robot/ev3_tacho.h
+	<stddef.h>
+	<stdint.h>
+	<stdbool.h>
+
+1481753123 source:/home/fc/Scrivania/2017.01.10_robot/brick.c
+	<string.h>
+	"brick.h"
+	<windows.h>
+	<unistd.h>
+
+1481753090 /home/fc/Scrivania/2017.01.10_robot/brick.h
+	<stdint.h>
+	<stdbool.h>
+	"ev3.h"
+	"ev3_port.h"
+	"ev3_sensor.h"
+	"ev3_tacho.h"
+	"ev3_dc.h"
+
+1481753131 /home/fc/Scrivania/2017.01.10_robot/ev3_port.h
+	<stddef.h>
+	<stdint.h>
+	<stdbool.h>
+
+1481753127 /home/fc/Scrivania/2017.01.10_robot/ev3_sensor.h
+	<stddef.h>
+	<stdint.h>
+	<stdbool.h>
+
+1481753112 /home/fc/Scrivania/2017.01.10_robot/ev3_dc.h
+	<stddef.h>
+	<stdint.h>
+	<stdbool.h>
+
+1481753078 source:/home/fc/Scrivania/2017.01.10_robot/crc32.c
+	"crc32.h"
+
+1481753120 /home/fc/Scrivania/2017.01.10_robot/crc32.h
+	<stdint.h>
+
+1481753097 source:/home/fc/Scrivania/2017.01.10_robot/ev3.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"modp_numtoa.h"
+	"ev3.h"
+	<sys/types.h>
+	<dirent.h>
+	<unistd.h>
+	<fcntl.h>
+	<linux/input.h>
+	"ev3_link.h"
+	<windows.h>
+	<unistd.h>
+
+1481753118 /home/fc/Scrivania/2017.01.10_robot/modp_numtoa.h
+	<stdint.h>
+
+1481753084 /home/fc/Scrivania/2017.01.10_robot/ev3_link.h
+	<stdint.h>
+
+1481753113 source:/home/fc/Scrivania/2017.01.10_robot/ev3_dc.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"modp_numtoa.h"
+	"ev3.h"
+	"ev3_port.h"
+	"ev3_dc.h"
+
+1481753130 source:/home/fc/Scrivania/2017.01.10_robot/ev3_led.c
+	<string.h>
+	<stdio.h>
+	"ev3.h"
+	"ev3_led.h"
+
+1481753079 /home/fc/Scrivania/2017.01.10_robot/ev3_led.h
+	<stddef.h>
+	<stdint.h>
+	<stdbool.h>
+
+1481753114 source:/home/fc/Scrivania/2017.01.10_robot/ev3_light.c
+	<stdio.h>
+	"ev3.h"
+	"ev3_led.h"
+	"ev3_light.h"
+
+1481753096 /home/fc/Scrivania/2017.01.10_robot/ev3_light.h
+	<stddef.h>
+	<stdint.h>
+	<stdbool.h>
+
+1481753109 source:/home/fc/Scrivania/2017.01.10_robot/ev3_link.c
+	<stdlib.h>
+	<signal.h>
+	<stdio.h>
+	<unistd.h>
+	<fcntl.h>
+	<errno.h>
+	<limits.h>
+	<dirent.h>
+	<winsock.h>
+	<wininet.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<sys/un.h>
+	<arpa/inet.h>
+	"ev3_link.h"
+	"ev3_both.h"
+	<linux/input.h>
+	<sys/stat.h>
+	<syslog.h>
+	"modp_numtoa.h"
+
+1481753134 source:/home/fc/Scrivania/2017.01.10_robot/ev3_port.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"modp_numtoa.h"
+	"ev3.h"
+	"ev3_port.h"
+
+1481753095 source:/home/fc/Scrivania/2017.01.10_robot/ev3_sensor.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"modp_numtoa.h"
+	"crc32.h"
+	"ev3.h"
+	"ev3_port.h"
+	"ev3_sensor.h"
+
+1481753091 source:/home/fc/Scrivania/2017.01.10_robot/ev3_servo.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"modp_numtoa.h"
+	"ev3.h"
+	"ev3_port.h"
+	"ev3_servo.h"
+
+1481753132 /home/fc/Scrivania/2017.01.10_robot/ev3_servo.h
+	<stddef.h>
+	<stdint.h>
+	<stdbool.h>
+
+1481753126 source:/home/fc/Scrivania/2017.01.10_robot/ev3_tacho.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"modp_numtoa.h"
+	"ev3.h"
+	"ev3_port.h"
+	"ev3_tacho.h"
+
+1484062221 source:/home/fc/Scrivania/2017.01.10_robot/main.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	"ev3.h"
+	"ev3_port.h"
+	"ev3_tacho.h"
+	"ev3_sensor.h"
+	"fmotor.h"
+	"fsensor.h"
+	"actions.h"
+
+1481753093 /home/fc/Scrivania/2017.01.10_robot/actions.h
+
+1481753137 source:/home/fc/Scrivania/2017.01.10_robot/modp_numtoa.c
+	"modp_numtoa.h"
+	<stdint.h>
+	<stdio.h>
+	<math.h>
+
+1484187324 source:/home/fc/Scrivania/2017.01.10_robot/fsensor.c
+	"fsensor.h"
+	<stdio.h>
+	"ev3.h"
+	"ev3_sensor.h"
+
+1484191257 source:/home/fc/Scrivania/2017.01.10_robot/fmotor.c
+	"fmotor.h"
+	"ev3_tacho.h"
+	"fsensor.h"
+	<stdio.h>
+	<unistd.h>
+
+1481753122 source:/home/valerio/Desktop/Project/2017.01.10_robot/brick.c
+	<string.h>
+	"brick.h"
+	<windows.h>
+	<unistd.h>
+
+1481753090 /home/valerio/Desktop/Project/2017.01.10_robot/brick.h
+	<stdint.h>
+	<stdbool.h>
+	"ev3.h"
+	"ev3_port.h"
+	"ev3_sensor.h"
+	"ev3_tacho.h"
+	"ev3_dc.h"
+
+1481753086 /home/valerio/Desktop/Project/2017.01.10_robot/ev3.h
+	<stddef.h>
+	<stdint.h>
+	<stdbool.h>
+	"ev3_both.h"
+
+1481753102 /home/valerio/Desktop/Project/2017.01.10_robot/ev3_both.h
+
+1481753130 /home/valerio/Desktop/Project/2017.01.10_robot/ev3_port.h
+	<stddef.h>
+	<stdint.h>
+	<stdbool.h>
+
+1481753126 /home/valerio/Desktop/Project/2017.01.10_robot/ev3_sensor.h
+	<stddef.h>
+	<stdint.h>
+	<stdbool.h>
+
+1481753084 /home/valerio/Desktop/Project/2017.01.10_robot/ev3_tacho.h
+	<stddef.h>
+	<stdint.h>
+	<stdbool.h>
+
+1481753112 /home/valerio/Desktop/Project/2017.01.10_robot/ev3_dc.h
+	<stddef.h>
+	<stdint.h>
+	<stdbool.h>
+
+1481753078 source:/home/valerio/Desktop/Project/2017.01.10_robot/crc32.c
+	"crc32.h"
+
+1481753120 /home/valerio/Desktop/Project/2017.01.10_robot/crc32.h
+	<stdint.h>
+
+1481753096 source:/home/valerio/Desktop/Project/2017.01.10_robot/ev3.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"modp_numtoa.h"
+	"ev3.h"
+	<sys/types.h>
+	<dirent.h>
+	<unistd.h>
+	<fcntl.h>
+	<linux/input.h>
+	"ev3_link.h"
+	<windows.h>
+	<unistd.h>
+
+1481753118 /home/valerio/Desktop/Project/2017.01.10_robot/modp_numtoa.h
+	<stdint.h>
+
+1481753084 /home/valerio/Desktop/Project/2017.01.10_robot/ev3_link.h
+	<stdint.h>
+
+1481753112 source:/home/valerio/Desktop/Project/2017.01.10_robot/ev3_dc.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"modp_numtoa.h"
+	"ev3.h"
+	"ev3_port.h"
+	"ev3_dc.h"
+
+1481753130 source:/home/valerio/Desktop/Project/2017.01.10_robot/ev3_led.c
+	<string.h>
+	<stdio.h>
+	"ev3.h"
+	"ev3_led.h"
+
+1481753078 /home/valerio/Desktop/Project/2017.01.10_robot/ev3_led.h
+	<stddef.h>
+	<stdint.h>
+	<stdbool.h>
+
+1481753114 source:/home/valerio/Desktop/Project/2017.01.10_robot/ev3_light.c
+	<stdio.h>
+	"ev3.h"
+	"ev3_led.h"
+	"ev3_light.h"
+
+1481753096 /home/valerio/Desktop/Project/2017.01.10_robot/ev3_light.h
+	<stddef.h>
+	<stdint.h>
+	<stdbool.h>
+
+1481753108 source:/home/valerio/Desktop/Project/2017.01.10_robot/ev3_link.c
+	<stdlib.h>
+	<signal.h>
+	<stdio.h>
+	<unistd.h>
+	<fcntl.h>
+	<errno.h>
+	<limits.h>
+	<dirent.h>
+	<winsock.h>
+	<wininet.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<sys/un.h>
+	<arpa/inet.h>
+	"ev3_link.h"
+	"ev3_both.h"
+	<linux/input.h>
+	<sys/stat.h>
+	<syslog.h>
+	"modp_numtoa.h"
+
+1481753134 source:/home/valerio/Desktop/Project/2017.01.10_robot/ev3_port.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"modp_numtoa.h"
+	"ev3.h"
+	"ev3_port.h"
+
+1481753094 source:/home/valerio/Desktop/Project/2017.01.10_robot/ev3_sensor.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"modp_numtoa.h"
+	"crc32.h"
+	"ev3.h"
+	"ev3_port.h"
+	"ev3_sensor.h"
+
+1481753090 source:/home/valerio/Desktop/Project/2017.01.10_robot/ev3_servo.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"modp_numtoa.h"
+	"ev3.h"
+	"ev3_port.h"
+	"ev3_servo.h"
+
+1481753132 /home/valerio/Desktop/Project/2017.01.10_robot/ev3_servo.h
+	<stddef.h>
+	<stdint.h>
+	<stdbool.h>
+
+1481753126 source:/home/valerio/Desktop/Project/2017.01.10_robot/ev3_tacho.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"modp_numtoa.h"
+	"ev3.h"
+	"ev3_port.h"
+	"ev3_tacho.h"
+
+1484661789 source:/home/valerio/Desktop/Project/2017.01.10_robot/fsensor.c
+	"fsensor.h"
+	<stdio.h>
+	"ev3.h"
+	"ev3_sensor.h"
+
+1484661783 /home/valerio/Desktop/Project/2017.01.10_robot/fsensor.h
+	<stdint.h>
+	<stdbool.h>
+
+1484660187 source:/home/valerio/Desktop/Project/2017.01.10_robot/main.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	"ev3.h"
+	"ev3_port.h"
+	"ev3_tacho.h"
+	"ev3_sensor.h"
+	"fmotor.h"
+	"fsensor.h"
+	"actions.h"
+
+1484758604 /home/valerio/Desktop/Project/2017.01.10_robot/fmotor.h
+	<stdint.h>
+	<stdbool.h>
+	"ev3.h"
+
+1484394771 /home/valerio/Desktop/Project/2017.01.10_robot/actions.h
+
+1481753136 source:/home/valerio/Desktop/Project/2017.01.10_robot/modp_numtoa.c
+	"modp_numtoa.h"
+	<stdint.h>
+	<stdio.h>
+	<math.h>
+
+1484758604 source:/home/valerio/Desktop/Project/2017.01.10_robot/fmotor.c
+	"fmotor.h"
+	"ev3_tacho.h"
+	"fsensor.h"
+	<stdio.h>
+	<unistd.h>
+
+1484662028 source:/home/valerio/Desktop/Project/2017.01.10_robot/actions.c
+	"fmotor.h"
+	"fsensor.h"
+	"ev3_tacho.h"
+	<stdio.h>
+	<unistd.h>
+	<stdlib.h>
+
+1481753122 source:/home/valerio/Desktop/Project/Main_bluetooth/brick.c
+	<string.h>
+	"brick.h"
+	<windows.h>
+	<unistd.h>
+
+1481753090 /home/valerio/Desktop/Project/Main_bluetooth/brick.h
+	<stdint.h>
+	<stdbool.h>
+	"ev3.h"
+	"ev3_port.h"
+	"ev3_sensor.h"
+	"ev3_tacho.h"
+	"ev3_dc.h"
+
+1481753086 /home/valerio/Desktop/Project/Main_bluetooth/ev3.h
+	<stddef.h>
+	<stdint.h>
+	<stdbool.h>
+	"ev3_both.h"
+
+1481753102 /home/valerio/Desktop/Project/Main_bluetooth/ev3_both.h
+
+1481753130 /home/valerio/Desktop/Project/Main_bluetooth/ev3_port.h
+	<stddef.h>
+	<stdint.h>
+	<stdbool.h>
+
+1481753126 /home/valerio/Desktop/Project/Main_bluetooth/ev3_sensor.h
+	<stddef.h>
+	<stdint.h>
+	<stdbool.h>
+
+1481753084 /home/valerio/Desktop/Project/Main_bluetooth/ev3_tacho.h
+	<stddef.h>
+	<stdint.h>
+	<stdbool.h>
+
+1481753112 /home/valerio/Desktop/Project/Main_bluetooth/ev3_dc.h
+	<stddef.h>
+	<stdint.h>
+	<stdbool.h>
+
+1481753078 source:/home/valerio/Desktop/Project/Main_bluetooth/crc32.c
+	"crc32.h"
+
+1481753120 /home/valerio/Desktop/Project/Main_bluetooth/crc32.h
+	<stdint.h>
+
+1481753096 source:/home/valerio/Desktop/Project/Main_bluetooth/ev3.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"modp_numtoa.h"
+	"ev3.h"
+	<sys/types.h>
+	<dirent.h>
+	<unistd.h>
+	<fcntl.h>
+	<linux/input.h>
+	"ev3_link.h"
+	<windows.h>
+	<unistd.h>
+
+1481753118 /home/valerio/Desktop/Project/Main_bluetooth/modp_numtoa.h
+	<stdint.h>
+
+1481753084 /home/valerio/Desktop/Project/Main_bluetooth/ev3_link.h
+	<stdint.h>
+
+1481753112 source:/home/valerio/Desktop/Project/Main_bluetooth/ev3_dc.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"modp_numtoa.h"
+	"ev3.h"
+	"ev3_port.h"
+	"ev3_dc.h"
+
+1481753130 source:/home/valerio/Desktop/Project/Main_bluetooth/ev3_led.c
+	<string.h>
+	<stdio.h>
+	"ev3.h"
+	"ev3_led.h"
+
+1481753078 /home/valerio/Desktop/Project/Main_bluetooth/ev3_led.h
+	<stddef.h>
+	<stdint.h>
+	<stdbool.h>
+
+1481753114 source:/home/valerio/Desktop/Project/Main_bluetooth/ev3_light.c
+	<stdio.h>
+	"ev3.h"
+	"ev3_led.h"
+	"ev3_light.h"
+
+1481753096 /home/valerio/Desktop/Project/Main_bluetooth/ev3_light.h
+	<stddef.h>
+	<stdint.h>
+	<stdbool.h>
+
+1481753108 source:/home/valerio/Desktop/Project/Main_bluetooth/ev3_link.c
+	<stdlib.h>
+	<signal.h>
+	<stdio.h>
+	<unistd.h>
+	<fcntl.h>
+	<errno.h>
+	<limits.h>
+	<dirent.h>
+	<winsock.h>
+	<wininet.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<sys/un.h>
+	<arpa/inet.h>
+	"ev3_link.h"
+	"ev3_both.h"
+	<linux/input.h>
+	<sys/stat.h>
+	<syslog.h>
+	"modp_numtoa.h"
+
+1481753134 source:/home/valerio/Desktop/Project/Main_bluetooth/ev3_port.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"modp_numtoa.h"
+	"ev3.h"
+	"ev3_port.h"
+
+1481753094 source:/home/valerio/Desktop/Project/Main_bluetooth/ev3_sensor.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"modp_numtoa.h"
+	"crc32.h"
+	"ev3.h"
+	"ev3_port.h"
+	"ev3_sensor.h"
+
+1481753090 source:/home/valerio/Desktop/Project/Main_bluetooth/ev3_servo.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"modp_numtoa.h"
+	"ev3.h"
+	"ev3_port.h"
+	"ev3_servo.h"
+
+1481753132 /home/valerio/Desktop/Project/Main_bluetooth/ev3_servo.h
+	<stddef.h>
+	<stdint.h>
+	<stdbool.h>
+
+1481753126 source:/home/valerio/Desktop/Project/Main_bluetooth/ev3_tacho.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"modp_numtoa.h"
+	"ev3.h"
+	"ev3_port.h"
+	"ev3_tacho.h"
+
+1481753136 source:/home/valerio/Desktop/Project/Main_bluetooth/modp_numtoa.c
+	"modp_numtoa.h"
+	<stdint.h>
+	<stdio.h>
+	<math.h>
+
+1485114410 source:/home/valerio/Desktop/Project/Main_bluetooth/actions.c
+	"fmotor.h"
+	"fsensor.h"
+	"ev3_tacho.h"
+	"actions.h"
+	<stdio.h>
+	<unistd.h>
+	<stdlib.h>
+
+1485104290 /home/valerio/Desktop/Project/Main_bluetooth/fmotor.h
+	<stdint.h>
+	<stdbool.h>
+	"ev3.h"
+
+1484661782 /home/valerio/Desktop/Project/Main_bluetooth/fsensor.h
+	<stdint.h>
+	<stdbool.h>
+
+1485103540 /home/valerio/Desktop/Project/Main_bluetooth/actions.h
+	<stdbool.h>
+
+1485110142 source:/home/valerio/Desktop/Project/Main_bluetooth/fmotor.c
+	"fmotor.h"
+	"ev3_tacho.h"
+	"fsensor.h"
+	<stdio.h>
+	<unistd.h>
+
+1485113130 source:/home/valerio/Desktop/Project/Main_bluetooth/fsensor.c
+	"fsensor.h"
+	<stdio.h>
+	"ev3.h"
+	"ev3_sensor.h"
+
+1481753122 source:/home/valerio/Desktop/Project/Main_bluetooth_little/brick.c
+	<string.h>
+	"brick.h"
+	<windows.h>
+	<unistd.h>
+
+1481753090 /home/valerio/Desktop/Project/Main_bluetooth_little/brick.h
+	<stdint.h>
+	<stdbool.h>
+	"ev3.h"
+	"ev3_port.h"
+	"ev3_sensor.h"
+	"ev3_tacho.h"
+	"ev3_dc.h"
+
+1481753086 /home/valerio/Desktop/Project/Main_bluetooth_little/ev3.h
+	<stddef.h>
+	<stdint.h>
+	<stdbool.h>
+	"ev3_both.h"
+
+1481753102 /home/valerio/Desktop/Project/Main_bluetooth_little/ev3_both.h
+
+1481753130 /home/valerio/Desktop/Project/Main_bluetooth_little/ev3_port.h
+	<stddef.h>
+	<stdint.h>
+	<stdbool.h>
+
+1481753126 /home/valerio/Desktop/Project/Main_bluetooth_little/ev3_sensor.h
+	<stddef.h>
+	<stdint.h>
+	<stdbool.h>
+
+1481753084 /home/valerio/Desktop/Project/Main_bluetooth_little/ev3_tacho.h
+	<stddef.h>
+	<stdint.h>
+	<stdbool.h>
+
+1481753112 /home/valerio/Desktop/Project/Main_bluetooth_little/ev3_dc.h
+	<stddef.h>
+	<stdint.h>
+	<stdbool.h>
+
+1481753078 source:/home/valerio/Desktop/Project/Main_bluetooth_little/crc32.c
+	"crc32.h"
+
+1481753120 /home/valerio/Desktop/Project/Main_bluetooth_little/crc32.h
+	<stdint.h>
+
+1481753096 source:/home/valerio/Desktop/Project/Main_bluetooth_little/ev3.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"modp_numtoa.h"
+	"ev3.h"
+	<sys/types.h>
+	<dirent.h>
+	<unistd.h>
+	<fcntl.h>
+	<linux/input.h>
+	"ev3_link.h"
+	<windows.h>
+	<unistd.h>
+
+1481753118 /home/valerio/Desktop/Project/Main_bluetooth_little/modp_numtoa.h
+	<stdint.h>
+
+1481753084 /home/valerio/Desktop/Project/Main_bluetooth_little/ev3_link.h
+	<stdint.h>
+
+1481753112 source:/home/valerio/Desktop/Project/Main_bluetooth_little/ev3_dc.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"modp_numtoa.h"
+	"ev3.h"
+	"ev3_port.h"
+	"ev3_dc.h"
+
+1481753130 source:/home/valerio/Desktop/Project/Main_bluetooth_little/ev3_led.c
+	<string.h>
+	<stdio.h>
+	"ev3.h"
+	"ev3_led.h"
+
+1481753078 /home/valerio/Desktop/Project/Main_bluetooth_little/ev3_led.h
+	<stddef.h>
+	<stdint.h>
+	<stdbool.h>
+
+1481753114 source:/home/valerio/Desktop/Project/Main_bluetooth_little/ev3_light.c
+	<stdio.h>
+	"ev3.h"
+	"ev3_led.h"
+	"ev3_light.h"
+
+1481753096 /home/valerio/Desktop/Project/Main_bluetooth_little/ev3_light.h
+	<stddef.h>
+	<stdint.h>
+	<stdbool.h>
+
+1481753108 source:/home/valerio/Desktop/Project/Main_bluetooth_little/ev3_link.c
+	<stdlib.h>
+	<signal.h>
+	<stdio.h>
+	<unistd.h>
+	<fcntl.h>
+	<errno.h>
+	<limits.h>
+	<dirent.h>
+	<winsock.h>
+	<wininet.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<sys/un.h>
+	<arpa/inet.h>
+	"ev3_link.h"
+	"ev3_both.h"
+	<linux/input.h>
+	<sys/stat.h>
+	<syslog.h>
+	"modp_numtoa.h"
+
+1481753134 source:/home/valerio/Desktop/Project/Main_bluetooth_little/ev3_port.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"modp_numtoa.h"
+	"ev3.h"
+	"ev3_port.h"
+
+1481753094 source:/home/valerio/Desktop/Project/Main_bluetooth_little/ev3_sensor.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"modp_numtoa.h"
+	"crc32.h"
+	"ev3.h"
+	"ev3_port.h"
+	"ev3_sensor.h"
+
+1481753090 source:/home/valerio/Desktop/Project/Main_bluetooth_little/ev3_servo.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"modp_numtoa.h"
+	"ev3.h"
+	"ev3_port.h"
+	"ev3_servo.h"
+
+1481753132 /home/valerio/Desktop/Project/Main_bluetooth_little/ev3_servo.h
+	<stddef.h>
+	<stdint.h>
+	<stdbool.h>
+
+1481753126 source:/home/valerio/Desktop/Project/Main_bluetooth_little/ev3_tacho.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"modp_numtoa.h"
+	"ev3.h"
+	"ev3_port.h"
+	"ev3_tacho.h"
+
+1485341077 source:/home/valerio/Desktop/Project/Main_bluetooth_little/fmotor.c
+	"fmotor.h"
+	"ev3_tacho.h"
+	"fsensor.h"
+	<stdio.h>
+	<unistd.h>
+
+1485205670 /home/valerio/Desktop/Project/Main_bluetooth_little/fmotor.h
+	<stdint.h>
+	<stdbool.h>
+	"ev3.h"
+
+1485206174 /home/valerio/Desktop/Project/Main_bluetooth_little/fsensor.h
+	<stdint.h>
+	<stdbool.h>
+
+1485206174 source:/home/valerio/Desktop/Project/Main_bluetooth_little/fsensor.c
+	"fsensor.h"
+	<stdio.h>
+	"ev3.h"
+	"ev3_sensor.h"
+
+1481753136 source:/home/valerio/Desktop/Project/Main_bluetooth_little/modp_numtoa.c
+	"modp_numtoa.h"
+	<stdint.h>
+	<stdio.h>
+	<math.h>
+
+1485260407 source:/home/valerio/Desktop/Project/Main_bluetooth_little/main.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	"ev3.h"
+	"ev3_port.h"
+	"ev3_tacho.h"
+	"ev3_sensor.h"
+	"fmotor.h"
+	"fsensor.h"
+	"actions.h"
+	<pthread.h>
+	<unistd.h>
+	<math.h>
+	<time.h>
+	<stdarg.h>
+	<sys/socket.h>
+	<bluetooth/bluetooth.h>
+	<bluetooth/rfcomm.h>
+
+1485263798 /home/valerio/Desktop/Project/Main_bluetooth_little/actions.h
+	<stdbool.h>
+
+1485341077 source:/home/valerio/Desktop/Project/Main_bluetooth_little/actions.c
+	"fmotor.h"
+	"fsensor.h"
+	"ev3_tacho.h"
+	"actions.h"
+	<stdio.h>
+	<unistd.h>
+	<stdlib.h>
+
